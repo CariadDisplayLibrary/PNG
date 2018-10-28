@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Image
 Depends: libdisplaycore-core
 Provides: PNG.h
-Description: PNG library
+Description: PNG
  PNG rendering from Flash or RAM
 
 

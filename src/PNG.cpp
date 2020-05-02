@@ -42,7 +42,7 @@ static uint32_t upng_get_pixel(upng_t *upng, int x, int y) {
     }
 }
 
-void PNG::draw(DisplayCore *dev, int x, int y) {
+void PNG::draw(Cariad *dev, int x, int y) {
     upng_t *upng;
     upng = upng_new_from_bytes(_data, _length);
     if (upng != NULL) {

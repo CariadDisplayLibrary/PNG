@@ -1,16 +1,17 @@
-Source: libdisplaycore-image-png
+Source: libcariad-image-png
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-image-png
+Package: libcariad-image-png
+Replaces: libdisplaycore-image-png
 Section: main
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Image
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: PNG.h
 Description: PNG
  PNG rendering from Flash or RAM
